@@ -1,0 +1,29 @@
+/* **********************category-Navigation*************************** */
+.navigation-box{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+.navigation{
+    margin-top: 1.6rem;
+}
+.navigation a{
+    text-decoration: none;
+    color: #212529;
+    font-weight: 500;
+    font-size: .95rem;
+}
+/* ******************************* */
+.banner-text h2{
+    font-weight: 600;
+    font-size: 1.85rem;
+}
+
+.banner img{
+    width: 100%; 
+    border-radius: 10px;
+}
+/* ************************** */
+.sub-category{
+    margin-top: 2rem;
+    margin-bottom: 2.8rem;
+}

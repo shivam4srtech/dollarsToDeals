@@ -1,0 +1,339 @@
+
+h2{
+    font-weight: 700;
+}
+/* ************************************** */
+.bg-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5.1rem 0rem 0rem 0rem;
+    padding: 0;
+    background-image: url(../images/dtd-bg-image.jpg);
+    width: 100%;
+    max-width: 100%;
+    height: 89vh;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+
+}
+.bg-content{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.bg-content h1{
+    font-weight: 600;
+}
+.bg-image .lead{
+    font-weight: 600;
+    font-size: 1.8rem;
+    width: 72%;
+    margin: 1rem auto;
+}
+@media(max-width:768px){
+    .bg-image .lead{
+        width: 100%;
+        font-size: 1.4rem;
+        margin: 0rem;
+    }
+}
+@media(max-width:785px){
+    .bg-image{
+        margin-top: 4rem;
+    }
+}
+
+/* *********** */
+.advance-search{
+    padding: 2rem;
+    background-color: #00000043;
+    border-radius: 6px;
+    width: 80%;
+    margin: 2rem auto;
+}
+.advance-search input{
+  width: 82%;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: .6rem .5rem;
+  border-radius: 3px;
+  margin-right: .5rem;
+  color: #fff;
+}
+.advance-search button{
+    width: 18%;
+    padding: .6rem .5rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #fff;
+    color: #000;
+    outline: none;
+    border: none;
+    transition: all .3s ease;
+  }
+  .advance-search button:hover{
+    background-color: #0598c4;
+    color: #fff;
+  }
+  .advance-search input::placeholder {
+    color: #fff;
+  }
+@media(max-width:768px){
+    .advance-search input{
+        display: block;
+        margin: auto;
+        width: 100%;
+      }
+      .advance-search button{
+        display: block;
+        margin: auto;
+        width: 100%;
+        margin-top: 1.2rem;
+      }
+}
+/* ****************Top Brand******************** */
+body{
+    background-color: #fff;
+}
+.top-brand{
+    margin-top: 4rem;
+}
+.top-brand h2{
+    margin-bottom: 2rem;
+}
+.brand-items{
+    padding-bottom: 3.4rem;
+    border-bottom: 1px solid #efebeb;
+}
+@media(max-width:550px){
+    .brand-items{
+        padding-bottom: 1rem;
+        margin-bottom: 0rem;
+    }
+    .top-brand h2{
+        margin-bottom: 1.6rem;
+    }
+}
+.brand-box{
+    margin-bottom: 1.4rem;
+}
+.brand-box img{
+    display: block;
+    width: 100%;
+    padding: .2rem;
+}
+/* *******************popular deals **************************/
+.pupular-deal{
+    margin-top: 4rem;
+    margin-bottom: 2.6rem;
+}
+@media(max-width:550px){
+    .pupular-deal h2{
+        margin-top: 0rem;
+    }
+}
+.deal-items{
+    margin-top: 2.6rem;
+    margin-bottom: 1rem;
+}
+.deal-box{
+    margin-bottom: 1.4rem;
+}
+.deal-box img{
+    display: block;
+    width: 100%;
+    padding: .2rem;
+    border: 1px solid #e8e5e5;
+}
+.deal{
+    margin-bottom: 1.6rem;
+}
+.deal-items span{
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    color: #000;
+    margin-top: 2rem;
+    font-size: .9rem;
+}
+.more-btn button{
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #0598c4;
+    padding: .8rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+/* *********************hand-picked******************************* */
+.picked-box{
+    margin-bottom: 1.4rem;
+}
+.picked-item{
+    border: 1px solid #e3e1e1;
+}
+.picked-item:hover{
+    box-shadow: 2px 2px 10px #c0bfbf;
+}
+.picked-item img{
+    display: block;
+    width: 100%;
+    margin: auto;
+    object-fit: contain;
+}
+.picked-item .deal-discount{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top: .5rem;
+}
+.picked-item .deal-desc{
+    font-weight: 500;
+    font-size: .8rem;
+}
+.picked-item .deal-cat{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .8rem;
+}
+/* **************************popular-category************************ */
+.pupular-category{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+.pupular-category h2{
+    margin-top: 2rem;
+}
+.category-box{
+    margin-bottom: 1rem;
+}
+.category-items a{
+    display: block;
+    text-align: center;
+}
+.category-image{
+    border-radius: 50%;
+}
+.category-image img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 100%;
+    box-shadow: 2px 2px 10px #c9e9f3;
+    transition: .3s ease-in-out;
+}
+.category-image img:hover{
+    box-shadow: none;
+}
+.category-title a{
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 1.2rem;
+}
+@media(max-width:768px){
+    .category-image img{
+        width: 80%;
+    }
+    .category-title a{
+        font-size: .8rem;
+    }
+}
+.category-title a:hover{
+    text-decoration: underline;
+}
+/* **************************Top Deal******************************* */
+.top-deal-box{
+    padding: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: #f5f5f5;
+}
+.top-deal-box h2{
+    margin-bottom: 2rem;
+}
+.top-deal .deal-item{
+    margin-bottom: 1.6rem;
+}
+.top-deal .deal-item:hover{
+    box-shadow: 5px 5px 10px #a7a6a6;
+    transition: .3s ease-in-out;
+}
+.brand-img{
+    border-radius: 5px 5px 0px 0px;
+    margin-top: .8rem;
+}
+.brand-img img{
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+    display: block;
+    margin: auto;
+    object-fit: contain;
+}
+.brand-logo{
+    background-color: #fff;
+    border-radius: 0px 0px 6px 6px;
+}
+.brand-logo img{
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 0px 0px 6px 6px;
+    margin-bottom: .8rem;
+}
+/* ****************************About-section********************************* */
+.about-section{
+    margin-top: 2rem;
+    margin-bottom: 2.6rem;
+}
+.about-section h2,h4,h5,h6{
+    color: #000;
+    font-weight: 600;
+}
+.about-section h2{
+    font-size: 1.9rem;
+}
+.about-section h4{
+    font-size: 1.5rem;
+}
+.about-section h5{
+    font-size: 1.2rem;
+}
+.about-section h5 i{
+    margin-right: .5rem;
+    font-weight: 700;
+}
+.about-section h6 i{
+    margin-left: .5rem;
+    font-weight: 700;
+}
+.about-section h6{
+    font-size: 1.1rem;
+}
+.about-section p{
+    font-size: .9rem;
+    font-weight: 500;
+}
+.about-section ol{
+    padding-left: 3.8rem;
+    font-weight: 500;
+    font-size: .92rem;
+}
+/* ***************************popular in fashion**************************** */
+.popular-fashion h1 span{
+    color: #0598c4;
+}
+.card-body h4{
+    font-size: .85rem;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+}
+
